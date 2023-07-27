@@ -4,8 +4,8 @@ import (
 	"errors"
 	"math/big"
 
+	"github.com/charliego3/uniswapv3-sdk/constants"
 	"github.com/daoleno/uniswap-sdk-core/entities"
-	"github.com/daoleno/uniswapv3-sdk/constants"
 )
 
 var (

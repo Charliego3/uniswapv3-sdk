@@ -4,12 +4,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/daoleno/uniswapv3-sdk/examples/contract"
+	"github.com/charliego3/uniswapv3-sdk/examples/contract"
 
+	"github.com/charliego3/uniswapv3-sdk/constants"
+	"github.com/charliego3/uniswapv3-sdk/entities"
+	sdkutils "github.com/charliego3/uniswapv3-sdk/utils"
 	coreEntities "github.com/daoleno/uniswap-sdk-core/entities"
-	"github.com/daoleno/uniswapv3-sdk/constants"
-	"github.com/daoleno/uniswapv3-sdk/entities"
-	sdkutils "github.com/daoleno/uniswapv3-sdk/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
 )
